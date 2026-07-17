@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>Spectrum Visualizer</string>
+    <key>CFBundleDisplayName</key>
+    <string>Spectrum Visualizer</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.local.spectrumvisualizer</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleExecutable</key>
+    <string>SpectrumVisualizer</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.2</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.music</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Spectrum Visualizer needs audio recording access to capture and visualize system audio output.</string>
+    <key>NSAudioCaptureUsageDescription</key>
+    <string>Spectrum Visualizer captures system audio output to render a live frequency spectrum.</string>
+</dict>
+</plist>
